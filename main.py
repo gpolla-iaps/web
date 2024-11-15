@@ -10,7 +10,8 @@ from page_admin import admin_page
 from page_forwarder import forwarder_page
 from page_transporte import transporte_page
 
-
+ui.page.title = "MyEmpresa"
+ui.page.favicon = 'https://tusitio.com/favicon.ico'  # Ruta a tu archivo favicon.ico
 
 
 # Middleware de autenticación

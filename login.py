@@ -15,6 +15,9 @@ client = MongoClient(uri)
 db = client[cliente]
 collection = db[db_usuario]
 
+ui.page.title = "MyEmpresa"
+ui.page.favicon = 'https://tusitio.com/favicon.ico'  # Ruta a tu archivo favicon.ico
+
 
 def login_user(user_id):
     app.storage.user.update({

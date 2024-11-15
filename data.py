@@ -5,7 +5,7 @@ import smtplib
 import threading
 
 
-uri = "mongodb+srv://empresa:azs3478ik@iaps.n01y9.mongodb.net/?retryWrites=true&w=majority&appName=Iaps"
+uri = "mongodb+srv://db_iaps:GP4Ay9zwkccIgIN3@iaps.n01y9.mongodb.net/?retryWrites=true&w=majority&appName=Iaps"
 
 cliente = "MyEmpresa"
 
